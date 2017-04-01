@@ -12,13 +12,17 @@ public class BridgeDemo {
         movie.setRuntime("1:48");
         movie.setYear("1984");
 
-        // MoviePrinter and PrintFormatter are completely independent of eachother
-        Formatter printFormatter = new PrintFormatter();
+        // MoviePrinter and and Formatter implementations are completely independent of each other
         Printer moviePrinter = new MoviePrinter(movie);
 
+        Formatter printFormatter = new PrintFormatter();
         String printedMaterial = moviePrinter.print(printFormatter);
-
         System.out.println(printedMaterial);
+
+        // Add new type of formatter without modifying MoviePrinter
+        Formatter htmlFormatter = new HtmlFormatter();
+        String htmlMaterial = moviePrinter.print(htmlFormatter);
+        System.out.println(htmlMaterial);
 
     }
 }

@@ -7,4 +7,9 @@
       * Simple, easy to implement solution
       * Integration with legacy code
       * Can provide multiple adaptors
+   2. Bridge
+      * Designed upfront for uncertainty and change
+      * Can be more complex to implement
+      * Provides flexibility
+      * More than just composition and Object Oriented principles 
     
