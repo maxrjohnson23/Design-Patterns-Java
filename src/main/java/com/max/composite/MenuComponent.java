@@ -26,4 +26,12 @@ public abstract class MenuComponent {
         sb.append("\n");
         return sb.toString();
     }
+
+    public MenuComponent add(MenuComponent menuComponent) {
+        throw new UnsupportedOperationException("Feature not implemented at this level");
+    }
+
+    public MenuComponent remove(MenuComponent menuComponent) {
+        throw new UnsupportedOperationException("Feature not implemented at this level");
+    }
 }
