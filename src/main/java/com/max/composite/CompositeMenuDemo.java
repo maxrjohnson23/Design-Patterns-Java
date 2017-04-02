@@ -2,7 +2,7 @@ package com.max.composite;
 
 /**
  *  Demonstrating the Composite Pattern using a tree-structured Menu
- *  Both the menu object and leaves can be treated the same way
+ *  Both the composite (Menu) and leaf (MenuItem) have the same interface
  */
 public class CompositeMenuDemo {
 

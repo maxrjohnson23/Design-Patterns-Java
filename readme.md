@@ -12,4 +12,8 @@
       * Can be more complex to implement
       * Provides flexibility
       * More than just composition and Object Oriented principles 
-    
+   3. Composite
+      * Generalizes a hierarchical structure
+      * Can simplify things too much, rely on runtime behavior checks
+      * Easier for clients to use
+      * Composite != Composition
