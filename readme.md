@@ -17,3 +17,5 @@
       * Can simplify things too much, rely on runtime behavior checks
       * Easier for clients to use
       * Composite != Composition
+   5. Decorator
+      
