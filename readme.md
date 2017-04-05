@@ -35,3 +35,6 @@
       * Utilities built in the Java API for implementing proxy
       * Only one instance, can't chain different functions easily
       
+2. **Creational Patterns**
+   1. Singleton
+   
