@@ -37,4 +37,7 @@
       
 2. **Creational Patterns**
    1. Singleton
-   
+      * Guarantee one instance
+      * Easy to implement
+      * Solves a well-defined problem
+      * Don't overuse it
