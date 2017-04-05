@@ -27,3 +27,6 @@
       * Easy pattern to implement
       * Commonly used as a refactoring pattern
    7. Flyweight
+      * Great for Memory Management using immutable objects
+      * Utilizes multiple patterns (Factory)
+      * Used heavily in Java Core API
