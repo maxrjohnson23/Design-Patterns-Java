@@ -41,3 +41,4 @@
       * Easy to implement
       * Solves a well-defined problem
       * Don't overuse it
+   2. Builder
