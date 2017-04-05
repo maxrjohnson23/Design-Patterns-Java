@@ -31,4 +31,7 @@
       * Utilizes multiple patterns (Factory)
       * Used heavily in Java Core API
    8. Proxy Pattern
+      * Used extensively in DI/IoC Frameworks
+      * Utilities built in the Java API for implementing proxy
+      * Only one instance, can't chain different functions easily
       
