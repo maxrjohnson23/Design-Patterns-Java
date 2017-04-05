@@ -5,14 +5,17 @@ package com.max.creational.singleton;
  */
 public class DbSingleton {
 
-    // Eagerly loaded
-    private static DbSingleton instance = new DbSingleton();
+    private static DbSingleton instance = null;
 
     private DbSingleton() {
 
     }
 
     public static DbSingleton getInstance() {
+        // lazily loaded
+        if (instance == null) {
+            instance = new DbSingleton();
+        }
         return instance;
     }
 }
