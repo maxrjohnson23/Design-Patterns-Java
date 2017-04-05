@@ -26,3 +26,4 @@
       * Simplifies client interface
       * Easy pattern to implement
       * Commonly used as a refactoring pattern
+   7. Flyweight
