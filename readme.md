@@ -42,3 +42,7 @@
       * Solves a well-defined problem
       * Don't overuse it
    2. Builder
+      * Creative way to deal with complexity of object creation
+      * Negates need for exposed setters & telescoping constructors
+      * Easy to implement with few drawbacks
+      * Can use inner or separate class
