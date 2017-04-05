@@ -1,15 +1,19 @@
 package com.max.proxy;
 
 /**
- * Demonstrating the Proxy pattern using a Twitter stub
+ * Demonstrating the Proxy pattern using a Twitter API
  */
 public class TwitterDemo {
 
     public static void main(String[] args) {
 
-        TwitterService service = (TwitterService) SecurityProxy.newInstance(new TwitterServiceStub());
+        // Test with stub
+        //TwitterService service = (TwitterService) SecurityProxy.newInstance(new TwitterServiceStub());
 
-        System.out.println(service.getTimeline("max"));
+        TwitterService service = (TwitterService) SecurityProxy.newInstance(new TwitterServiceImpl());
+
+        // Get recent tweets from @TwitterDev
+        System.out.println(service.getTimeline("TwitterDev"));
 
     }
 }
