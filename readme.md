@@ -30,3 +30,5 @@
       * Great for Memory Management using immutable objects
       * Utilizes multiple patterns (Factory)
       * Used heavily in Java Core API
+   8. Proxy Pattern
+      
