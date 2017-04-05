@@ -18,4 +18,7 @@
       * Easier for clients to use
       * Composite != Composition
    5. Decorator
-      
+      * Original object stays the same
+      * Unique way to add functionality
+      * Often confused with simple inheritance, but does not modify the base object
+      * Can be more complex for clients
