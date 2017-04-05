@@ -22,3 +22,7 @@
       * Unique way to add functionality
       * Often confused with simple inheritance, but does not modify the base object
       * Can be more complex for clients
+   6. Facade
+      * Simplifies client interface
+      * Easy pattern to implement
+      * Commonly used as a refactoring pattern
