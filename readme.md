@@ -46,3 +46,7 @@
       * Negates need for exposed setters & telescoping constructors
       * Easy to implement with few drawbacks
       * Can use inner or separate class
+   3. Prototype
+      * Guarantee unique instance each time
+      * Lightweight construction with using "new"
+      * Often refactored in later to address a performance issue
