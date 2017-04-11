@@ -50,3 +50,8 @@
       * Guarantee unique instance each time
       * Lightweight construction with using "new"
       * Often refactored in later to address a performance issue
+   4. Factory
+      * Encapsulates instantiation logic
+      * Parameter driven, defers creation to subclass
+      * Uses common interface
+      * Opposite of a Singleton
