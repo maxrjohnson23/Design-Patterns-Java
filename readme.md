@@ -56,4 +56,7 @@
       * Uses common interface
       * Opposite of a Singleton
    5. Abstract Factory
-      * 
+      * Factory of similar Factories
+      * Problem specific, can be complex to implement
+      * Heavy abstraction of underlying components
+      * Typically used in frameworks
