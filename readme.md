@@ -55,3 +55,5 @@
       * Parameter driven, defers creation to subclass
       * Uses common interface
       * Opposite of a Singleton
+   5. Abstract Factory
+      * 
