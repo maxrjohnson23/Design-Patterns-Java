@@ -60,3 +60,10 @@
       * Problem specific, can be complex to implement
       * Heavy abstraction of underlying components
       * Typically used in frameworks
+3. **Behavioral Patterns**
+   1. Chain of Responsibility
+      * Decouples sender and receiver
+      * Configurable at runtime
+      * Hierarchical in nature
+      * Be careful with large chains and unhandled requests
+      
