@@ -66,4 +66,9 @@
       * Configurable at runtime
       * Hierarchical in nature
       * Be careful with large chains and unhandled requests
+   2. Command
+      * Encapsulate each request as an object
+      * Decouple sender from processor
+      * Few drawbacks
+      * Often used for undo functionality
       
