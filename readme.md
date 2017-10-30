@@ -76,4 +76,10 @@
       * Rules or validation
       * Special case pattern for specific case
       * May also consider the Visitor pattern
+   4. Iterator
+      * Efficient way to traverse collections
+      * Hides underlying algorithm
+      * Simplify client code
+      * Enables foreach in Java
+      
       
