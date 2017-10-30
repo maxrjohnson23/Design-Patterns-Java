@@ -71,4 +71,9 @@
       * Decouple sender from processor
       * Few drawbacks
       * Often used for undo functionality
+   3. Interpreter
+      * Useful when defining a grammar
+      * Rules or validation
+      * Special case pattern for specific case
+      * May also consider the Visitor pattern
       
