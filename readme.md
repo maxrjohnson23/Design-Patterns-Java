@@ -86,5 +86,9 @@
       * Simplified communication
       * Mediator can become complex
       * Can be used with Command pattern
+   6. Memento
+      * Capture Object state
+      * Can be heavy with large objects and long history
+      * Ability to recreate state
       
       
