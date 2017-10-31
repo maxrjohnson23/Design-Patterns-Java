@@ -81,5 +81,10 @@
       * Hides underlying algorithm
       * Simplify client code
       * Enables foreach in Java
+   5. Mediator
+      * Loose coupling between objects
+      * Simplified communication
+      * Mediator can become complex
+      * Can be used with Command pattern
       
       
