@@ -90,5 +90,9 @@
       * Capture Object state
       * Can be heavy with large objects and long history
       * Ability to recreate state
+   7. Observer Pattern
+      * Decoupled communication
+      * Built in functionality in Java API
+      * Can be used with mediator
       
       
