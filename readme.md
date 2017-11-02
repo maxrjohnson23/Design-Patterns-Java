@@ -90,9 +90,14 @@
       * Capture Object state
       * Can be heavy with large objects and long history
       * Ability to recreate state
-   7. Observer Pattern
+   7. Observer 
       * Decoupled communication
       * Built in functionality in Java API
       * Can be used with mediator
+   8. State
+      * Simplifies cyclomatic complexity
+      * Adding additional states is made easier
+      * Can end up with more classes
+      * Similar implementation to the Strategy pattern
       
       
