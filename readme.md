@@ -99,5 +99,10 @@
       * Adding additional states is made easier
       * Can end up with more classes
       * Similar implementation to the Strategy pattern
+   9. Strategy Pattern
+      * Externalizes algorithms
+      * Client knows about different strategies
+      * Class per strategy
+      * Reduces conditional statements and complexity
       
       
