@@ -99,10 +99,15 @@
       * Adding additional states is made easier
       * Can end up with more classes
       * Similar implementation to the Strategy pattern
-   9. Strategy Pattern
+   9. Strategy
       * Externalizes algorithms
       * Client knows about different strategies
       * Class per strategy
       * Reduces conditional statements and complexity
+   10. Template Method
+      * Guarantees algorithm adherence
+      * Used heavily in IoC containers
+      * Easier implementation than Strategy pattern in terms of interaction with algorithm
+   
       
       
