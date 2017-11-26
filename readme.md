@@ -105,12 +105,12 @@
       * Class per strategy
       * Reduces conditional statements and complexity
    10. Template Method
-      * Guarantees algorithm adherence
-      * Used heavily in IoC containers
-      * Easier implementation than Strategy pattern in terms of interaction with algorithm
+     * Guarantees algorithm adherence
+     * Used heavily in IoC containers
+     * Easier implementation than Strategy pattern in terms of interaction with algorithm
    11. Visitor 
-      * Useful when we expect changes, but not sure of what they are yet
-      * Adds minor complexity, but simple OO principles
-      * Externalizes change
+     * Useful when we expect changes, but not sure of what they are yet
+     * Adds minor complexity, but simple OO principles
+     * Externalizes change
       
       
